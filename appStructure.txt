@@ -1,0 +1,17 @@
+● src
++---● app
+|   +--● categorias
+|   |  |--categorias.component.ts|.html|.css
+|   |  +--● categoria
+|   |  |  |--categoria.component.ts|.html|.css
+|   |  |
+|   |  +--● categoria-list
+|   |  |  |--categoria-list.component.ts|.html|.css
+|   |  |
+|   |  +--● shared
+|   |     |--categoria.service.ts
+|   |     |--categoria.model.ts
+|   |
+|   |--app.module.ts
+|
+|--index.html (cdn path for bootstrap)

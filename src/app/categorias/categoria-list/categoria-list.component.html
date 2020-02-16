@@ -1,0 +1,14 @@
+<table class="table table-hover">
+  <tr>
+    <td>ID</td>
+    <td>NOME</td>
+    <td>DESCRIÇÃO</td>
+    <td>AÇÃO</td>
+  </tr>
+  <tr *ngFor="let cat of service.list?._embedded.categorias">
+    <td (click)="populateForm(cat)" >{{cat.id}}</td>
+    <td (click)="populateForm(cat)" >{{cat.nome}}</td>
+    <td (click)="populateForm(cat)" >{{cat.descricao}}</td>
+    <td><button (click)="onDelete(cat.id)" class="btn btn-sm btn-outline-danger">x</button></td>
+  </tr>
+</table>
